@@ -1,0 +1,12 @@
+
+.profileText{
+  width:95%;
+  float:left;
+  padding-top: 10px;
+}
+
+.showname{
+    border-bottom:2px solid black;
+    float:left;
+    width:100%;
+}

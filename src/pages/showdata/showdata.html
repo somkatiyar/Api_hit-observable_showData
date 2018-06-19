@@ -1,0 +1,37 @@
+<label id="data">The input id is=></label>
+{{detailInfo}}
+<div class="showname">
+  <div>
+
+
+    id :  <label>  {{user.id | uppercase}} </label><br/>
+    name:  <label>  {{user.name}} </label><br/>
+    username :<label>  {{user.username}}  </label><br/>
+    email :<label>{{user.email}}</label><br/><br/>
+
+    <label class="head">address :</label><br/>
+
+     street :<label>  {{user.address?.street}}  </label><br/>
+     suite : <label>  {{user.address?.suite}}  </label><br/>
+     city: <label>  {{user.address?.city}}  </label><br/>
+     zipcode :<label>  {{user.address?.zipcode}}  </label><br/><br/>
+
+
+    <label  class="head">geo :</label><br/>
+
+    lat <label>  {{user.address?.geo?.lat}}  </label> <br/>
+    lng <label>  {{user.address?.geo?.lng}}  </label> <br/><br/>
+
+    phone :  <label>  {{user.phone}} </label><br/>
+    website :  <label>  {{user.website}} </label><br/><br/>
+
+    <label  class="head">company :</label><br/>
+
+    name :  <label>  {{user.company?.name}}  </label><br/>
+    catchPhrase:<label>  {{user.company?.catchPhrase}}  </label><br/>
+    bs:<label>  {{user.company?.bs}}  </label>
+
+
+
+  </div>
+</div>
